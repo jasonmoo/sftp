@@ -10,7 +10,7 @@ import (
 
 	"github.com/kr/fs"
 
-	"code.google.com/p/go.crypto/ssh"
+	"golang.org/x/crypto/ssh"
 )
 
 const maxOutstandingPackets = 128 // default from openssh sftp client: 64
