@@ -30,10 +30,10 @@ import (
 	"net"
 	"os"
 
-	"code.google.com/p/go.crypto/ssh"
-	"code.google.com/p/go.crypto/ssh/agent"
+	"golang.org/x/crypto/ssh"
+	"golang.org/x/crypto/ssh/agent"
 
-	"github.com/pkg/sftp"
+	"github.com/jasonmoo/sftp"
 )
 
 var (
